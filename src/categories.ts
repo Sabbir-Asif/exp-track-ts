@@ -1,2 +1,5 @@
-export const incomeCategories : string[] = ["Salary", "Freelance", "Gift", "Other"];
-export const expenseCategories : string[] = ["Food", "Transport", "Entertainment", "Bills", "Other"];
+type IncomeCategories = "Salary" | "Freelance" | "Gift" | "Other";
+type ExpenseCategories = "Food" | "Transport" | "Entertainment" | "Bills" | "Other";
+
+export const incomeCategories : IncomeCategories[] = ["Salary", "Freelance", "Gift", "Other"];
+export const expenseCategories : ExpenseCategories[] = ["Food", "Transport", "Entertainment", "Bills", "Other"];

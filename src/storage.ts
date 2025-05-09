@@ -13,7 +13,7 @@ function getRecords(): RecordItem[] {
     }
 }
 
-function saveRecords(records: RecordItem[]) {
+function saveRecords(records: RecordItem[]) : void {
     localStorage.setItem('records', JSON.stringify(records));
 }
 
