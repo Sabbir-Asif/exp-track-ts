@@ -2,9 +2,7 @@
 
 This project is created for learning purpose. To keep the things basic and understandtable wee kept the functionalities simple. This is the converted version of the expense tracker project written in javascript.
 
-### Links
-- <a href="https://sabbir-asif.github.io/exp-track-ts/"> Live Demo</a>
-- <a href="https://github.com/Sabbir-Asif/exp-track">Link of the original project written in Javascript</a>
+<a href="https://github.com/Sabbir-Asif/exp-track">Link of the original project written in Javascript</a>
 
 ## Features
 
