@@ -1,5 +1,6 @@
 import { incomeCategories, expenseCategories } from "./categories";
-import { records, deleteRecord } from "./records";
+import { records, addRecord, deleteRecord } from "./records";
+import { RecordItem } from "./storage";
 
 export function renderSummary(): void {
 
@@ -158,7 +159,7 @@ declare global {
     }
 }
 
-const handleDelete = function (index : number) {
+window.handleDelete = function (index : number) {
     if (confirm('Are you sure?')) {
         deleteRecord(index);
         renderSummary();
